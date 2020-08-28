@@ -28,6 +28,8 @@ This is a demo-repository showcasing how Git works.
 - git checkout
   - switch to another branch
   - ... and does like fifty other things (we'll get to those in time)
+- git merge
+  - merges changes from another branch into the current branch
 
 ## Working Directory
 
@@ -61,7 +63,17 @@ create a `develop` branch, you can type `git branch develop`.
 To switch to a branch, type `git checkout $BRANCH_NAME_HERE`. For instance, to
 switch to the `develop` branch, you can type `git checkout develop`.
 
+To merge work from another branch, type `git merge $BRANCH_NAME_HERE`. For
+instance, to merge work from the `feat-unittesting` branch, type
+`git merge feat-unittesting`.
+
 ### Common Conventions
+
+Here are some common branches you can expect to run into. Each team has its
+own conventions that you should adhere to.
+
+> Try to avoid using capitlized letters in your branch names -- there are
+> platform-differences that you will run into if you don't.
 
 - master
   - the default, the stable, the ready-to-ship
