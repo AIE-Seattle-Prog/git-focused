@@ -93,6 +93,7 @@ own conventions that you should adhere to.
 - git config --global user.name "FIRSTNAME_LASTNAME"
 - git config --global user.email "me@example.com"
   - This should be the same as your GitHub account's e-mail address.
+- git config --global core.editor "$PATH_TO_EDITOR"
 
 ## License
 
