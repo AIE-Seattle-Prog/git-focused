@@ -22,6 +22,12 @@ This is a demo-repository showcasing how Git works.
   - retrieve new commits from another git repo
 - git clone
   - creates a local copy of a remote repository for you on your computer
+- git branch
+  - if given a name, creates a new branch with that name
+  - if not given a name, it will list branches and indicate the current branch
+- git checkout
+  - switch to another branch
+  - ... and does like fifty other things (we'll get to those in time)
 
 ## Working Directory
 
@@ -42,3 +48,14 @@ When pushing, you need to be up to date and have new commits to contribute.
 When pulling, the remote needs to have new commits to pull down.
 
 In order for changes to be propagated, they need to be contained within a commit.
+
+## Branching
+
+### Common Conventions
+
+- master
+  - the default, the stable, the ready-to-ship
+- develop
+  - the experimental -- work is shared here
+- feat-xxx
+  - focused on a single feature
