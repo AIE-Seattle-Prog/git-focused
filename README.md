@@ -18,6 +18,8 @@ This is a demo-repository showcasing how Git works.
   - identifies other git repos to push/pull
 - git push
   - send new commits to another git repo
+- git pull
+  - retrieve new commits from another git repo
 
 ## Working Directory
 
@@ -26,6 +28,9 @@ This is a demo-repository showcasing how Git works.
 - Staged Files - ready to be committed
 
 ## Sync
+
+> The repository you are pushing/pulling with is referred to as the _remote_
+> repository. This is often times on GitHub, but it is not the only option.
 
 Synchronization occurs between two repositories. When you
 push or pull, the history of the two repositories are compared.
