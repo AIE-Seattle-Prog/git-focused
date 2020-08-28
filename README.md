@@ -39,6 +39,40 @@ This is a demo-repository showcasing how Git works.
 - git merge
   - merges changes from another branch into the current branch
 
+## gitignore
+
+Your `.gitignore` specifies which files should not be considered for inclusion in
+the Git repository.
+
+Here's example of a `.gitignore` file:
+
+```text
+# This is a comment -- comments are on their own line
+# and are prefixed by the pound sign (#)
+
+# ignores the bin folder
+bin/
+# ignores the bin and Bin folder
+[bB]in/
+
+# ignores the obj folder
+obj/
+
+# ignores all files ending in .user
+*.user  
+
+# ignores all files named johnmadden.txt
+johnmadden.txt
+```
+
+To ignore a folder, type the name of the folder and end with a forward-slash (/).
+
+To ignore a file, type the name of that file.
+
+To ignore all files of a certain type (by extension), type the file extension
+with an asterisk in place of the file name.
+
+To add 
 
 ## Working Directory
 

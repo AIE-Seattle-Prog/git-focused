@@ -1,0 +1,13 @@
+# ignores the bin folder
+bin/    
+# ignores the bin and Bin folder
+[bB]in/ 
+
+# ignores the obj folder
+obj/    
+
+# ignores all files ending in .user
+*.user  
+
+# ignores all files named johnmadden.txt
+johnmadden.txt 
