@@ -26,10 +26,19 @@ This is a demo-repository showcasing how Git works.
   - if given a name, creates a new branch with that name
   - if not given a name, it will list branches and indicate the current branch
 - git checkout
-  - switch to another branch
+  - if given a branch name, switch to another branch
+  - if given a file path, discards unstaged changes
+    - this is ideally handled by `git restore` for newer users
   - ... and does like fifty other things (we'll get to those in time)
+- git reset
+  - given a file path, unstages a file
+    - this is ideally handled by `git restore --staged` for newer users
+- git restore
+  - given a file path, discards unstaged changes
+    - if provided the `--staged` switch, will unstage a file (but not discard)
 - git merge
   - merges changes from another branch into the current branch
+
 
 ## Working Directory
 
