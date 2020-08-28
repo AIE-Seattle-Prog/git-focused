@@ -47,6 +47,12 @@ push or pull, the history of the two repositories are compared.
 
 When pushing, you need to be up to date and have new commits to contribute.
 
+> Up-to-date is defined as having all of the commits that are in the remote
+> repository on the branch that you are trying to push to.
+>
+> To test this, you can write `git pull`. If it says `Already up to date.`
+> then you're ready to push. If not, sort that out!
+
 When pulling, the remote needs to have new commits to pull down.
 
 In order for changes to be propagated, they need to be contained within a commit.
