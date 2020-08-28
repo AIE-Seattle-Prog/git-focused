@@ -20,6 +20,8 @@ This is a demo-repository showcasing how Git works.
   - send new commits to another git repo
 - git pull
   - retrieve new commits from another git repo
+- git clone
+  - creates a local copy of a remote repository for you on your computer
 
 ## Working Directory
 
