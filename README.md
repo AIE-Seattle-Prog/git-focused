@@ -13,6 +13,10 @@ This is a demo-repository showcasing how Git works.
   - shows the status of the working directory
 - git log
   - shows a history of past commits
+- git remote
+  - identifies other git repos to push/pull
+- git push
+  - send new commits to another git repo
 
 ## Working Directory
 
