@@ -88,6 +88,12 @@ own conventions that you should adhere to.
 - feat-xxx
   - focused on a single feature
 
+## Recommended Settings
+
+- git config --global user.name "FIRSTNAME_LASTNAME"
+- git config --global user.email "me@example.com"
+  - This should be the same as your GitHub account's e-mail address.
+
 ## License
 
 MIT License - Copyright (c) 2020 Academy of Interactive Entertainment
