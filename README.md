@@ -51,6 +51,16 @@ In order for changes to be propagated, they need to be contained within a commit
 
 ## Branching
 
+Each branch represents a different "stream" of work. This can be anything
+ranging from having a "stable" stream to a "I'm-working-on-this-feature" stream
+to a "experimental" stream.
+
+To make a new branch, type `git branch $BRANCH_NAME_HERE`. For instance, to
+create a `develop` branch, you can type `git branch develop`.
+
+To switch to a branch, type `git checkout $BRANCH_NAME_HERE`. For instance, to
+switch to the `develop` branch, you can type `git checkout develop`.
+
 ### Common Conventions
 
 - master
