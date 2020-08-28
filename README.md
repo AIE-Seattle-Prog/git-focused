@@ -2,6 +2,18 @@
 
 This is a demo-repository showcasing how Git works.
 
+## Commands
+- git init
+  - creates a new git repo (empty)
+- git add
+  - stage files to be committed
+- git commit
+  - create the commit
+- git status
+  - shows the status of the working directory
+- git log
+  - shows a history of past commits
+
 ## Working Directory
 
 - Untracked Files - new to the repository
