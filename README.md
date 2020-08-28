@@ -3,6 +3,7 @@
 This is a demo-repository showcasing how Git works.
 
 ## Commands
+
 - git init
   - creates a new git repo (empty)
 - git add
@@ -23,3 +24,14 @@ This is a demo-repository showcasing how Git works.
 - Untracked Files - new to the repository
 - Modified Files - known files that have been changed
 - Staged Files - ready to be committed
+
+## Sync
+
+Synchronization occurs between two repositories. When you
+push or pull, the history of the two repositories are compared.
+
+When pushing, you need to be up to date and have new commits to contribute.
+
+When pulling, the remote needs to have new commits to pull down.
+
+In order for changes to be propagated, they need to be contained within a commit.
