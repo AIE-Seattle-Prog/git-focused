@@ -81,3 +81,7 @@ own conventions that you should adhere to.
   - the experimental -- work is shared here
 - feat-xxx
   - focused on a single feature
+
+## License
+
+MIT License - Copyright (c) 2020 Academy of Interactive Entertainment
